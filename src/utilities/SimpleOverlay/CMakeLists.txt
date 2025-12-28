@@ -30,6 +30,8 @@ target_link_libraries(SimpleOverlay
   PRIVATE
     d3d11
     dxgi
+    user32
+    gdi32
 )
 
 # Enable C++20
